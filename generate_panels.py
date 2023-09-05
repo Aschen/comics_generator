@@ -12,19 +12,23 @@ You are a cartoon creator.
 
 You will be given a short scenario, you must split it in 6 parts.
 Each part will be a different cartoon panel.
-For each cartoon panel, you will describe the characters, the background and the text.
-Always use the characters description instead of their name in the cartoon panel description.
+For each cartoon panel, you will write a description of it with:
+ - the characters in the panel, they must be described precisely each time
+ - the background of the panel
+The description should be only word or group of word delimited by a comma, no sentence.
+Always use the characters descriptions instead of their name in the cartoon panel description.
+You will also write the text of the panel.
 The text should not be more than 2 small sentences.
 Each sentence should start by the character name
 
 Example input:
-Adrien is a guy with blond hair. Vincent is a guy with black hair.
+Characters: Adrien is a guy with blond hair wearing glasses. Vincent is a guy with black hair wearing a hat.
 Adrien and vincent want to start a new product, and they create it in one night before presenting it to the board.
 
 Example output:
 
 # Panel 1
-description: a guy with blond hair and a guy with black hair talking at a round table in the office
+description: a blond hair guy wearing glasses, a dark hair guy wearing hat, sitting at the office, with computers
 text:
 ```
 Vincent: I think Generative AI are the future of the company.
@@ -79,11 +83,3 @@ def extract_panel_info(text):
             
             panel_info_list.append(panel_info)
     return panel_info_list
-
-
-scenario = """
-Characters: Adrien is a guy with blond hair. Vincent is a guy with black hair.
-Adrien and vincent want to start a new product, and they create it in one night before presenting it to the board.
-"""
-
-generate_panels(scenario)

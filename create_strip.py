@@ -25,4 +25,4 @@ def create_strip(images):
         resized_img = resize_and_add_border(img, (images[0].width, images[0].height), 10)
         result_image.paste(resized_img, (x, y))
 
-    return result_image
+    return result_image.resize((1024, 1536))
