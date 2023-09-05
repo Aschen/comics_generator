@@ -28,7 +28,7 @@ Adrien and vincent want to start a new product, and they create it in one night 
 Example output:
 
 # Panel 1
-description: a blond hair guy wearing glasses, a dark hair guy wearing hat, sitting at the office, with computers
+description: 2 guys, a blond hair guy wearing glasses, a dark hair guy wearing hat, sitting at the office, with computers
 text:
 ```
 Vincent: I think Generative AI are the future of the company.

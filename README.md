@@ -14,14 +14,13 @@ Then for each panel:
 
 The 6 generated images with their texts are then merged into a final strip !
 
-
-![strip.png](output/strip.png)
-
 Generated with the following scenario as input:
 ```
-Characters: Adrien is a guy with blond hair and glasses. Vincent is a guy with black hair and wearing a hat.
+Characters: Adrien is a guy with blond hair. Vincent is a guy with black hair.
 Adrien and Vincent work at the office and want to start a new product, and they create it in one night before presenting it to the board.
 ```
+
+![strip.png](output/strip.png)
 
 ## Usage
 
