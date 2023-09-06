@@ -7,12 +7,16 @@ from create_strip import create_strip
 
 # ==========================================================================================
 
+# SCENARIO = """
+# Characters: Adrien is a guy with blond hair. Vincent is a guy with black hair.
+# Adrien and Vincent work at the office and want to start a new product, and they create it in one night before presenting it to the board.
+# """
 SCENARIO = """
-Characters: Adrien is a guy with blond hair. Vincent is a guy with black hair.
-Adrien and Vincent work at the office and want to start a new product, and they create it in one night before presenting it to the board.
+Characters: Francis is medieval knight with a shield. Madeline is a princess with long hair.
+Francis hear about a dragon that is terrorizing the kingdom. He goes to the castle to kill the dragon in an epic battle. The princess is angry because the dragon was her friend.
 """
 
-STYLE = "manga, black and white"
+STYLE = "belgium comic, black and white"
 
 # ==========================================================================================
 

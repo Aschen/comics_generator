@@ -17,6 +17,7 @@ For each cartoon panel, you will write a description of it with:
  - the background of the panel
 The description should be only word or group of word delimited by a comma, no sentence.
 Always use the characters descriptions instead of their name in the cartoon panel description.
+You can not use the same description twice.
 You will also write the text of the panel.
 The text should not be more than 2 small sentences.
 Each sentence should start by the character name
