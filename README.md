@@ -16,9 +16,11 @@ The 6 generated images with their texts are then merged into a final strip !
 
 ## Usage
 
-Export `OPENAI_API_KEY` and `STABILITY_KEY`.
+Export `OPENAI_API_KEY` and `STABILITY_KEY`. (Use `export OPENAI_API_KEY=xxx` or write them in a `.env` file)
 
 Install dependencies: `pip install langchain openai stability-sdk pillow`
+
+_Pillow must be version 9.50 maximum_
 
 Then edit the `SCENARIO` variable in [kartoon.py](kartoon.py).  
 You can also edit the `STYLE` variable to change the style.  
